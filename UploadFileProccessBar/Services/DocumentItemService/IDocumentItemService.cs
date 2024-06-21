@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using System.Diagnostics.Contracts;
 using UploadFileProccessBar.Models;
 using UploadFileProccessBar.Models.DataBase;
 
@@ -22,6 +23,8 @@ namespace UploadFileProccessBar.Services.DocumentItemService
             => await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
         public async Task<List<DocumentItem>> GetByDocumentId(Guid id)
          => await _collection.Find(x => x.DocumentId == id).ToListAsync();
+        
+
         public async Task UpdateAsync(Guid id, DocumentItem updateModel)
             => await _collection.ReplaceOneAsync(x => x.Id == id, updateModel);
 

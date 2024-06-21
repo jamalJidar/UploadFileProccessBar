@@ -42,6 +42,11 @@ async function GetExtension() {
         var proccessBarId = makeid(10);
         var div = document.createElement('div');
         var span = document.createElement('span');
+        var lable = document.createElement('label')
+        lable.classList.add('label')
+        var progress = document.createElement('progress');
+        progress.setAttribute('max', 100); 
+        progress.value = 10;
         console.log(item);
         var elementGenerator = new ElementGenerator(medaiName, item.name.split('.').pop());
         var medai = elementGenerator.GetElement    //document.createElement('img');
@@ -50,7 +55,7 @@ async function GetExtension() {
         h2.setAttribute('id', caption);
         h2.innerHTML = formatBytes(item.size);
 
-        span.setAttribute('id', proccessBarId);
+        progress.setAttribute('id', proccessBarId);
 
         span.innerHTML = '0%';
        /* medai.setAttribute('id', medaiName);*/
@@ -58,8 +63,9 @@ async function GetExtension() {
             medai.src = URL.createObjectURL(item)
         }
 
-
-        div.appendChild(span);
+        lable.appendChild(progress);
+        div.appendChild(lable)
+        //div.appendChild(span);
         div.appendChild(medai);
         div.appendChild(h2);
         content.appendChild(div);
@@ -176,7 +182,7 @@ async function ConvertFileToByte(file, id, index, medaiName, proccessBarId, capt
 
         const totalByte = event.target.result.byteLength;
         const content = event.target.result;
-        const CHUNK_SIZE = 184935 ;
+        const CHUNK_SIZE = 100000 ;
         const totalChunks = totalByte / CHUNK_SIZE;
 
 
@@ -242,7 +248,7 @@ function SaveToDatabase(item, medaiName, proccessBarId , type) {
                 }
 
                 else {
-                    document.getElementById(proccessBarId).innerHTML = result.persent + '%';
+                    document.getElementById(proccessBarId).value = result.persent;
 
                 }
 

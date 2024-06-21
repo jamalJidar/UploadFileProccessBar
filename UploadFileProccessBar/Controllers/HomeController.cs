@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
+using System.IO;
+using System.Net.WebSockets;
 using UploadFileProccessBar.Models;
 using UploadFileProccessBar.Services.DocumentItemService;
 using UploadFileProccessBar.Services.DocumentService;
@@ -10,7 +12,8 @@ namespace UploadFileProccessBar.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IDocumentService documentService;
         private readonly IDocumentItemService documentItemService;
-        public int BYTE_SIZE_UPLOAD = 184935 *2 ; //15000000;
+        public int BYTE_SIZE_UPLOAD = 1500000; //15000000;
+                                              //184935      
         public HomeController(ILogger<HomeController> logger, IDocumentService documentService, IDocumentItemService documentItem)
         {
             _logger = logger;
@@ -65,9 +68,9 @@ namespace UploadFileProccessBar.Controllers
                 if (result.Item3)
                 {
 
-                  //  Console.WriteLine(result.Item1.Id);
+                    //  Console.WriteLine(result.Item1.Id);
                     result.Item2.Document = new byte[CONTENTlENGTH];
-                    result.Item2.LengthUpload = bodyArray.Length;
+                    result.Item1.LengthUpload = bodyArray.Length;
                     Array.Copy(bodyArray.ToArray(), 0, result.Item2.Document, 0, bodyArray.Length);
                     result.Item1.FileLength = _content_length;
                     result.Item2.LengthUpload = bodyArray.Length;
@@ -109,18 +112,18 @@ namespace UploadFileProccessBar.Controllers
 
 
 
-
+            //1889911
             var item = await documentItemService.CalcFreeItem(doc.Id);
             long LengthBody = bodyArray.Length;
-           // Console.WriteLine($"item len :  {item.Document.Length} - item id  : {item.Id} ");
+            // Console.WriteLine($"item len :  {item.Document.Length} - item id  : {item.Id} ");
             long LengthItem = item.Document.Length;
             var freeSpace = BYTE_SIZE_UPLOAD - LengthItem;
 
             long sizeUpload = LengthBody <= freeSpace ? LengthBody : freeSpace;
 
             var temp = new byte[LengthItem + sizeUpload];
-
-            Array.Copy(item.Document, 0, temp, 0, LengthItem);
+            if (item.Document.Length > 0)
+                Array.Copy(item.Document, 0, temp, 0, LengthItem);
 
             Array.Copy(bodyArray, 0, temp, LengthItem, sizeUpload);
             item.Document = new byte[temp.Length];
@@ -135,20 +138,13 @@ namespace UploadFileProccessBar.Controllers
 
             if (LengthBody > freeSpace)
             {
-                Console.WriteLine( "body > freeSpace : " + item.Document.Length);
+                Console.WriteLine("body > freeSpace : " + item.Document.Length);
                 var DivBody = new byte[LengthBody - sizeUpload];
                 Array.Copy(bodyArray, sizeUpload, DivBody, 0, (LengthBody - sizeUpload));
                 await CalcAndSave(DivBody, doc);
             }
 
-    Console.WriteLine($"item len :  {item.Document.Length} - item id  : {item.Id} ");
-
-        }
-
-        public async Task Tets()
-        {
-
-            /*   */
+            Console.WriteLine($"item len :  {item.Document.Length} - item id  : {item.Id} ");
 
         }
 
@@ -156,37 +152,42 @@ namespace UploadFileProccessBar.Controllers
 
 
 
-        public async Task<IActionResult> ShowFile(Guid ? id)
+
+
+        public async Task<IActionResult> ShowFile(Guid? id)
         {
 
+            var _doc = await documentService.GetAsync();
+            var doc = _doc.OrderByDescending(x=>x.CreateAt).FirstOrDefault();
+            var items =await documentItemService.GetByDocumentId(doc.Id);
+            var bytes = new byte[long.Parse(doc.FileLength.ToString())];
+            List<byte> b=  new List<byte> ();
+            ViewBag.type = doc.DocumentType;
 
-
-            if (id.HasValue)
+            foreach (var item in items.Select(x=>x.Document))
             {
-    var docItem = await documentItemService.GetAsync(id.Value);
-return File(docItem.Document, "image/jpeg");
+
+                b.AddRange(item);
             }
 
-            var d = await documentService.GetAsync();
-            var doc = d.OrderByDescending(x => x.CreateAt).FirstOrDefault();
-              id = doc.Id;
-            var _file = await documentItemService.GetByDocumentId(id.Value);
-            foreach (var item in _file.OrderByDescending(x => x.Index))
-            {
-                Console.WriteLine(item.Index);
-            }
+         
+ // return new FileStreamResult(new MemoryStream(b.ToArray()), doc.DocumentType);
+          
+          
 
 
-            byte[] bytes = new byte[_file.Sum(x => x.Document.Length)];
-            foreach (var item in _file.OrderByDescending(x => x.Index).Select(x => x.Document))
-            {
-                Array.Copy(item, 0, bytes, 0, item.Length);
-            }
+          //  return Content( $"data:{doc.DocumentType};base64,{Convert.ToBase64String(b.ToArray(), 0, b.ToArray().Length)}");
+            return File(b.ToArray(), "application/octet-stream", "name."+ doc.DocumentType.Split('/')[1]); // returns a FileStreamResult
 
-            // return Content ("data:image/jpeg;base64," + Convert.ToBase64String(bytes.ToArray(), 0, bytes.ToArray().Length));
+
+
+            ViewBag.data = $"data:{doc.DocumentType};base64,{Convert.ToBase64String(b.ToArray(), 0, b.ToArray().Length)}";
+            
+             // return File(b.ToArray(), doc.DocumentType);
+            return View ();
             // var array= _file.OrderBy(x=>x.Time).Select(x=>x.Document); 
-            Console.WriteLine(bytes.Length);
-            return File(bytes, doc.DocumentType);
+
+
         }
         public async Task<string> getFile(Guid id)
         {
