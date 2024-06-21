@@ -1,0 +1,137 @@
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.AssemblyReference.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfoInputs.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfo.cs
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.CoreCompileInputs.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cs
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\appsettings.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.staticwebassets.runtime.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.exe
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.deps.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.runtimeconfig.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\DnsClient.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\Snappier.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.UploadFileProccessBar.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.build.UploadFileProccessBar.props
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UploadFileProccessBar.props
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UploadFileProccessBar.props
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\bundle\UploadFileProccessBar.styles.css
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\projectbundle\UploadFileProccessBar.bundle.scp.css
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.CopyComplete
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\refint\UploadFileProccessBar.dll
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.genruntimeconfig.cache
+C:\Users\mypc\source\repos\UploadFileProccessBar\UploadFileProccessBar\obj\Debug\net7.0\ref\UploadFileProccessBar.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\appsettings.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.staticwebassets.runtime.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.exe
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.deps.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.runtimeconfig.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\DnsClient.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\Snappier.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfo.cs
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cs
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.UploadFileProccessBar.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.build.UploadFileProccessBar.props
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UploadFileProccessBar.props
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UploadFileProccessBar.props
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\bundle\UploadFileProccessBar.styles.css
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\projectbundle\UploadFileProccessBar.bundle.scp.css
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFi.6C2F5B00.Up2Date
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\refint\UploadFileProccessBar.dll
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.genruntimeconfig.cache
+C:\Users\admin\Desktop\New folder (3)\UploadFileProccessBar\obj\Debug\net7.0\ref\UploadFileProccessBar.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.AssemblyReference.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfoInputs.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.AssemblyInfo.cs
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.CoreCompileInputs.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.RazorAssemblyInfo.cs
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\refint\UploadFileProccessBar.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\DnsClient.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\Snappier.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.UploadFileProccessBar.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.build.UploadFileProccessBar.props
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UploadFileProccessBar.props
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UploadFileProccessBar.props
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\bundle\UploadFileProccessBar.styles.css
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\scopedcss\projectbundle\UploadFileProccessBar.bundle.scp.css
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\appsettings.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.staticwebassets.runtime.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.exe
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.deps.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.runtimeconfig.json
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\UploadFileProccessBar.pdb
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\Hi3Helper.ZstdNet.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\bin\Debug\net7.0\SharpHDiffPatch.Core.dll
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.csproj.CopyComplete
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\UploadFileProccessBar.genruntimeconfig.cache
+C:\Users\mypc\Desktop\1\UploadFileProccessBar\obj\Debug\net7.0\ref\UploadFileProccessBar.dll
